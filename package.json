@@ -1,0 +1,26 @@
+{
+  "name": "tweetdeck-wrapper",
+  "description": "Just tweetdeck's web version, but without brower chrome",
+  "author": "Felix Saparelli <https://passcod.name>",
+  "version": "1.0.0",
+  "main": "index.html",
+  "nodejs": false,
+  "single-instance": true,
+  "user-agent": "Mozilla/5.0 (%osinfo) WebKit/%webkit_ver NodeWebkit/%nwver TweetdeckWrapper/%version",
+  "keywords": [
+    "node-webkit",
+    "tweetdeck",
+    "twitter",
+    "app"
+  ],
+  "window": {
+    "icon": "icon.png",
+    "toolbar": false,
+    "height": 600,
+    "width": 630,
+    "min_width": 330,
+    "title": "TweetDeck",
+    "position": "centre",
+    "resizable": true
+  }
+}
