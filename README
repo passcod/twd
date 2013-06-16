@@ -20,16 +20,17 @@ from package: # Install node-webkit
               nw twd-1.0.0.nw
 
 
-~> platform-specific (coming soon)
+~> platform-specific
 
-windows:      https://passcod.name/twd/bin/twd-1.0.0.win32.zip
+windows:      https://passcod.name/twd/bin/twd-1.0.0-win32.zip
               # Download, unzip, and run twd.exe
 
-mac os x:     https://passcod.name/twd/bin/twd-1.0.0.mac.zip
+mac os x:     https://passcod.name/twd/bin/twd-1.0.0-mac.zip
               # Download, unzip, and run twd.app
 
-linux:        https://passcod.name/twd/bin/twd-1.0.0.tar.gz
-              # Download, tar xzvf, and run ./twd
+linux:        https://passcod.name/twd/bin/twd-1.0.0-linux32.tar.gz
+              https://passcod.name/twd/bin/twd-1.0.0-linux64.tar.gz
+              # Download correct version, tar xzvf, and run ./twd
 
 
 COPYRIGHT
