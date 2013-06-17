@@ -28,8 +28,8 @@ $ nw .
 
 ```bash
 # Install node-webkit
-$ wget https://passcod.name/twd/bin/twd-1.0.0.nw
-$ nw twd-1.0.0.nw
+$ wget https://passcod.name/twd/bin/twd-1.0.1.nw
+$ nw twd-1.0.1.nw
 ```
 
 
@@ -37,18 +37,18 @@ $ nw twd-1.0.0.nw
 
 #### windows:
 
-https://passcod.name/twd/bin/twd-1.0.0-win32.zip  
+https://passcod.name/twd/bin/twd-1.0.1-win32.zip  
 Download, unzip, and run twd.exe
 
 #### mac os x:
 
-https://passcod.name/twd/bin/twd-1.0.0-mac.zip  
+https://passcod.name/twd/bin/twd-1.0.1-mac.zip  
 Download, unzip, and run twd.app
 
 #### linux:
 
-https://passcod.name/twd/bin/twd-1.0.0-linux32.tar.gz  
-https://passcod.name/twd/bin/twd-1.0.0-linux64.tar.gz  
+https://passcod.name/twd/bin/twd-1.0.1-linux32.tar.gz  
+https://passcod.name/twd/bin/twd-1.0.1-linux64.tar.gz  
 Download correct version, tar xzvf, and run ./twd
 
 ##### archlinux:
@@ -65,4 +65,4 @@ of, and copyrighted to, Twitter, Inc.
 
 Node-webkit is MIT licensed: https://github.com/rogerwang/node-webkit
 
-This code is in the Public Domain: https://passcod.name/license.html
+More licensing information is available in the LICENSE file.

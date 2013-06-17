@@ -2,7 +2,7 @@
   "name": "tweetdeck-wrapper",
   "description": "Just tweetdeck's web version, but without brower chrome",
   "author": "Felix Saparelli <https://passcod.name>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.html",
   "nodejs": false,
   "single-instance": true,
