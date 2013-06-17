@@ -51,6 +51,11 @@ https://passcod.name/twd/bin/twd-1.0.0-linux32.tar.gz
 https://passcod.name/twd/bin/twd-1.0.0-linux64.tar.gz  
 Download correct version, tar xzvf, and run ./twd
 
+##### archlinux:
+
+https://aur.archlinux.org/packages/twd  
+Install using yaourt, packer, or whatever
+
 
 COPYRIGHT
 ---------
