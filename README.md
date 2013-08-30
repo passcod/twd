@@ -9,6 +9,7 @@ layout, can be resized easily to single-column size.
 Switch columns by using arrow keys or side scroll
 or 1 2 3 4 5 6 7 8 9 0 as per tweetdeck shortcuts.
 
+Require node-webkit 0.7.x or greater.
 
 RUNNING
 -------

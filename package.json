@@ -1,23 +1,66 @@
 {
-  "name": "tweetdeck-wrapper",
-  "description": "Just tweetdeck's web version, but without brower chrome",
-  "author": "Felix Saparelli <https://passcod.name>",
-  "version": "1.0.1",
-  "main": "index.html",
-  "nodejs": false,
-  "single-instance": true,
-  "user-agent": "Mozilla/5.0 (%osinfo) WebKit/%webkit_ver NodeWebkit/%nwver TweetdeckWrapper/%version",
+  "name": "twd",
+  "version": "1.1.0",
+  "description": "(Browser-)Chrome-less TweetDeck",
   "keywords": [
     "node-webkit",
     "tweetdeck",
     "twitter",
     "app"
   ],
+  "homepage": "https://github.com/passcod/twd",
+  "author": "Félix Saparelli <https://passcod.name>",
+  "contributors": [
+    {
+      "name": "Félix Saparelli",
+      "email": "twd@passcod.name"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "Public Domain",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "files": [
+        "package.json",
+        "index.html",
+        "README.md",
+        "LICENSE",
+        ".gitignore"
+      ]
+    },
+    {
+      "type": "Icon: Copyright Twitter, Inc.",
+      "url": "https://twitter.com/logo",
+      "files": ["icon.png"]
+    },
+    {
+      "type": "MIT License",
+      "url": "https://github.com/rogerwang/node-webkit/raw/master/LICENSE",
+      "files": ["node-webkit (contained in prebuilt binaries)"]
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/passcod/twd.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-node-webkit-builder": "~0.1.3",
+    "grunt-shell": "~0.3.1"
+  },
+  "engines": {
+    "node-webkit": ">=0.7.0"
+  },
+  "main": "app://twd/index.html",
+  "nodejs": false,
+  "single-instance": true,
+  "user-agent": "Mozilla/5.0 (%osinfo) WebKit/%webkit_ver NodeWebkit/%nwver twd/%version",
   "window": {
     "icon": "icon.png",
     "toolbar": false,
     "height": 600,
-    "width": 630,
+    "width": 600,
     "min_width": 330,
     "title": "TweetDeck",
     "position": "centre",
