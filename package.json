@@ -53,15 +53,15 @@
     "node-webkit": ">=0.7.0"
   },
   "main": "app://twd/index.html",
-  "nodejs": false,
+  "nodejs": true,
   "single-instance": true,
   "user-agent": "Mozilla/5.0 (%osinfo) WebKit/%webkit_ver NodeWebkit/%nwver twd/%version",
   "window": {
     "icon": "icon.png",
     "toolbar": false,
-    "height": 600,
-    "width": 600,
-    "min_width": 330,
+    "height": 700,
+    "width": 900,
+    "min_width": 430,
     "title": "TweetDeck",
     "position": "centre",
     "resizable": true
