@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>TweetDeck</title>
-  </head>
-  <body>
-    Connecting...
-    <script>location.replace('https://web.tweetdeck.com')</script>
-  </body>
+ <head>
+	<style>
+	html, body {margin:0;padding:0;}
+	html, body { min-height:100%; }
+	</style>
+  <script type="text/javascript">
+    window.gui = require('nw.gui');
+    handleLinks = function(event)
+    {
+
+      var href;
+			var target;
+			var rel;
+
+            function checkLinks(element) 
+            {
+                if (element.nodeName.toLowerCase() === 'a') 
+                {
+                    href = element.getAttribute('href');
+                    if (href)
+                    {
+						// Middle mouse - open in default browser
+						if(event.which==2){ 
+							gui.Shell.openExternal(href);
+							// important, prevent the default event from happening!
+							event.preventDefault();
+							return;
+						}
+						
+						// Check the link
+						target=element.getAttribute('target');
+						rel=element.getAttribute('rel');
+						if(target=="_blank" && (rel!="user" && rel!="mediaPreview")){
+							gui.Shell.openExternal(href);
+							event.preventDefault();
+							return;
+						}
+                    }   
+                }                   
+                else if (element.parentElement) 
+                {
+                  checkLinks(element.parentElement);
+                }
+            }
+            checkLinks(event.target);
+    };
+
+     function isLoaded() 
+     {
+       // let's see if the iframe has finished loading
+       var iframe = document.getElementById('tweetdeck');
+
+       if (iframe && iframe.contentWindow && iframe.contentWindow.document &&
+           iframe.contentWindow.document.body &&
+           iframe.contentWindow.document.body.innerHTML) 
+           {
+            //now deal with links
+            iframe.contentWindow.document.body.addEventListener('click', handleLinks, false);
+           } 
+           else 
+           {
+             // not yet, let's wait a bit and try again
+             setTimeout(isLoaded, 300);
+           }
+     };
+   </script>
+ </head>
+ <body>
+   <iframe id="tweetdeck" src="https://web.tweetdeck.com" onLoad="isLoaded();" style="width: 100%; min-height:100%;" seamless="true" nwdisable nwfaketop></iframe>
+ </body>
 </html>
