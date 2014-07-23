@@ -1,6 +1,6 @@
 {
   "name": "twd",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "(Browser-)Chrome-less TweetDeck",
   "keywords": [
     "node-webkit",
@@ -14,6 +14,10 @@
     {
       "name": "Félix Saparelli",
       "email": "twd@passcod.name"
+    },
+    {
+      "name": "Janis Jansons",
+      "email": "janis.jansons@janhouse.lv"
     }
   ],
   "licenses": [
