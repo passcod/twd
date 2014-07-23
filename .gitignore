@@ -1,5 +1,5 @@
-*.swp
+.*.sw*
 .DS_Store
 ~*
 node_modules
-bin
+*.nw

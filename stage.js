@@ -11,20 +11,23 @@
 
       if (el.nodeName.toLowerCase() === 'a') {
         var href = el.getAttribute('href');
-        if (href) {
-          if ((e.which === 2) || // Middle mouse button
-              (el.target === 'blank' &&
+        if (href !== null) {
+          var middleButton = e.which === 2;
+          if (middleButton ||
+              (el.target === '_blank' &&
                el.rel !== 'user' &&
                el.rel !== 'mediaPreview')) {
             openLink(href);
           }
+
+          console.log(href, middleButton, el.target, el.rel);
         }
       } else if ((p = el.parentElement) !== null) {
         checkForLink(p);
       }
     };
 
-    checkForLink(event.target);
+    checkForLink(e.target);
   };
   
   var init = function() {

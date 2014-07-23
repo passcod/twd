@@ -1,25 +1,3 @@
-Refer to https://github.com/passcod/twd for the file list
-See the package.json for the license URLs
-
-The following files are released in the Public Domain:
-
-- package.json
-- index.html
-- README.md
-- LICENSE (this file)
-- .gitignore
-
 The icon.png file is copyright Twitter, Inc.
-
-The node-webkit binaries distributed in the following
-files are licensed under the MIT license:
-
-- bin/twd-VERSION-linux32.tar.gz
-- bin/twd-VERSION-linux64.tar.gz
-- bin/twd-VERSION-mac.zip
-- bin/twd-VERSION-win32.zip
-
-where VERSION is a X.X.X version number, e.g. 1.0.0.
-
-The bin/twd-VERSION.nw file does not contain any binaries.
-
+Every other file is released in the Public Domain.
+See https://passcod.name/PUBLIC.txt
