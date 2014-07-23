@@ -1,6 +1,6 @@
 {
   "name": "twd",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "(Browser-)Chrome-less TweetDeck",
   "keywords": [
     "node-webkit",

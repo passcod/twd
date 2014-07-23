@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+nw /opt/twd/twd.nw $@

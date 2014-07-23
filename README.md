@@ -1,5 +1,6 @@
-TWEETDECK WRAPPER
-=================
+# twd
+
+_TweetDeck wrapper for use as desktop app._
 
 ![Screenshot](https://stuff.passcod.name/humgur/code/twd.png)
 
@@ -7,40 +8,40 @@ Uses [node-webkit] to provide a single-purpose window
 onto TweetDeck's web version. Min-width = single-col.
 
 [node-webkit]: https://github.com/rogerwang/node-webkit
+[release]: https://github.com/passcod/twd/releases
 
-RUNNING
--------
+## running…
 
-### from source:
-
-Install [node-webkit] first.
+### …from source:
 
 ```bash
+$ $package_manager install node-webkit
 $ git clone git://github.com/passcod/twd.git
 $ cd twd
 $ nw .
 ```
 
-### from package:
+### …from package:
 
-Install [node-webkit] first.
+- Install [node-webkit].
+- Download latest [release].
+- Run it.
+
+### …on archlinux:
+
+[AUR package](https://aur.archlinux.org/packages/twd)
 
 ```bash
-$ wget https://passcod.name/twd/bin/twd-1.2.0.nw
-$ nw twd-1.2.0.nw
+$ yaourt -S twd
+$ twd
 ```
 
-### archlinux:
+A `.desktop` file (for graphical menus) is also provided.
 
-https://aur.archlinux.org/packages/twd
-Install using yaourt, packer, or whatever
-
-COPYRIGHT
----------
+## legal
 
 TweetDeck, Twitter, and the TweetDeck logo are trademarks
 of, and copyrighted to, Twitter, Inc.
 
-Node-webkit is MIT licensed
-
-More licensing information is available in the LICENSE file.
+All other files are released in the Public Domain as per
+my [policy](https://passcod.name/PUBLIC.txt).
