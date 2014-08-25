@@ -1,6 +1,6 @@
 {
   "name": "twd",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "(Browser-)Chrome-less TweetDeck",
   "keywords": [
     "node-webkit",
@@ -29,7 +29,7 @@
     "url": "https://github.com/passcod/twd.git"
   },
   "engines": {
-    "node-webkit": ">=0.7.0"
+    "node-webkit": ">=0.10.0"
   },
   "main": "app://twd/index.html",
   "nodejs": true,

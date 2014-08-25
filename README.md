@@ -7,6 +7,8 @@ _TweetDeck wrapper for use as desktop app._
 Uses [node-webkit] to provide a single-purpose window
 onto TweetDeck's web version. Min-width = single-col.
 
+Will not work with node-webkit < 0.10.
+
 [node-webkit]: https://github.com/rogerwang/node-webkit
 [release]: https://github.com/passcod/twd/releases
 
