@@ -2,9 +2,11 @@ html, body {
   margin: 0;
   min-height: 100%;
   padding: 0;
+  overflow: hidden;
 }
 
 iframe {
   min-height: 100%;
   width: 100%;
+  border-style: none;
 }
