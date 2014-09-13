@@ -1,6 +1,6 @@
 {
   "name": "twd",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "(Browser-)Chrome-less TweetDeck",
   "keywords": [
     "node-webkit",
@@ -18,6 +18,10 @@
     {
       "name": "Janis Jansons",
       "email": "janis.jansons@janhouse.lv"
+    },
+    {
+      "name": "Richard Denton",
+      "email": "isdampe@gmail.com"
     }
   ],
   "license": {
