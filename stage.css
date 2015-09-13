@@ -1,13 +1,12 @@
 html, body {
-  positon: fixed;
   margin: 0;
   height: 100%;
-  padding: 0;
   overflow: hidden;
+  positon: fixed;
 }
 
 iframe {
+  border-style: none;
   min-height: 100%;
   width: 100%;
-  border-style: none;
 }
