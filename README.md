@@ -23,22 +23,19 @@ $ cd twd
 $ nw .
 ```
 
-### …from package:
+### ~~…on archlinux:~~
 
-- Install [node-webkit].
-- Download latest [release].
-- Run it.
+There is currently no Arch Linux package, but if someone creates it I'll be glad to link it again.
 
-### …on archlinux:
-
-[AUR package](https://aur.archlinux.org/packages/twd)
+~~[AUR package](https://aur.archlinux.org/packages/twd)~~
 
 ```bash
 $ yaourt -S twd
 $ twd
 ```
 
-A `.desktop` file (for graphical menus) is also provided.
+A `.desktop` file (for graphical menus) is also provided
+(see [releng/arch/twd.desktop](releng/arch/twd.desktop)).
 
 ## legal
 
