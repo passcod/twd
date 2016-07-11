@@ -43,7 +43,7 @@
   "engines": {
     "node-webkit": ">=0.10.0"
   },
-  "main": "app://twd/index.html",
+  "main": "index.html",
   "nodejs": true,
   "single-instance": true,
   "user-agent": "Mozilla/5.0 (%osinfo) WebKit/%webkit_ver NodeWebkit/%nwver twd/%version",
