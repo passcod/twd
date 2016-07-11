@@ -54,7 +54,7 @@
     "width": 900,
     "min_width": 370,
     "title": "TweetDeck",
-    "position": "centre",
+    "position": "center",
     "resizable": true
   }
 }
