@@ -1,5 +1,7 @@
 # twd
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/passcod/twd.svg)](https://greenkeeper.io/)
+
 _TweetDeck wrapper for use as desktop app._
 
 ![Screenshot](https://stuff.passcod.name/humgur/code/twd.png)
